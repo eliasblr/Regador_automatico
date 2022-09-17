@@ -12,17 +12,17 @@ void setup()
   pinMode(8, OUTPUT);
 
   for (counter = 0; counter < 3; ++counter) {
-    analogWrite(11, 204);
+    analogWrite(11, 255);
     analogWrite(10, 0);
     analogWrite(9, 0);
     delay(250); // Wait for 250 millisecond(s)
     analogWrite(11, 0);
-    analogWrite(10, 153);
+    analogWrite(10, 255);
     analogWrite(9, 0);
     delay(250); // Wait for 250 millisecond(s)
     analogWrite(11, 0);
     analogWrite(10, 0);
-    analogWrite(9, 153);
+    analogWrite(9, 255);
     delay(250); // Wait for 250 millisecond(s)
   }
   analogWrite(11, 0);
